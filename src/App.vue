@@ -1,19 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png" />
+    <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- <ParrResponseEntryFiltersComponent /> -->
+
+    <!-- <parr-response-entry-filter-component /> -->
+    <FiltersPanel />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from "./components/HelloWorld.vue";
+// import ParrResponseEntryFiltersComponent from "./components/ems_dashboard/parrResponseEntry/Filters.vue";
+import FiltersPanel from "./components/ems_dashboard/parrResponseEntry/FiltersPanel.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // HelloWorld,
+    // ParrResponseEntryFiltersComponent,
+    FiltersPanel,
+  },
+};
 </script>
 
 <style>
